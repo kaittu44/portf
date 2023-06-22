@@ -1,0 +1,161 @@
+/*
+font-family: 'Delius Unicase',cursive;
+font-family: 'Kavivanar',cursive;
+font-family: 'Montserrat',sans-serif;
+font-family: 'Roboto',sans-serif;
+*/
+
+/* Navigation Section */
+
+.navigation{
+    background-image: linear-gradient(to right, #E1AEFF, #FFBDF7);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.navbar-brand {
+    background-image: linear-gradient(to right, #213363, #E966A0, #F24C3D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: 'Delius Unicase', cursive;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.nav-item {
+    font-family: 'Delius Unicase', cursive;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 4px;
+}
+
+.nav-item:hover{
+    animation: rubberBand;
+    animation-duration: 0.8s;
+}
+/* Intro Section */
+
+.intro-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    color: antiquewhite;
+    letter-spacing: 5px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media (max-width:1350px) {
+    .intro-container{
+        flex-direction: column;
+    }    
+}
+
+
+
+
+.intro-text .name{
+    background-image: linear-gradient(to right , #213363 , #E966A0 , #F24C3D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: 'Delius Unicase', cursive;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.intro-text .profession , .r1{
+    font-family: 'Delius Unicase', cursive;
+    font-weight: 400;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, #17594A, #213363);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+
+/* My Projects */
+
+.my-project{
+    background-image: linear-gradient(45deg, #E4A5FF ,  #30A2FF);
+}
+
+.r1{
+    padding-top: 5%;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+hr{
+    width: 30%;
+    border: none;
+    height:3px;
+    background: black;
+    margin: 0.5rem auto ;
+    opacity: 1;
+}
+
+.project-row{
+    padding:5%;
+}
+
+@media (max-width:1350px){
+    .project-row{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+.card{
+    margin-bottom: 3%;
+    text-align: center;
+    background-color: #F3CCFF;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    animation-delay: 0ms;
+}
+
+.project-img{
+    border-radius: 5px;
+}
+
+.card-header{
+    border-style: none;
+    background: transparent;
+}
+
+.card-header:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+.project-link{
+    text-decoration: none;
+    color:#2B2730;
+}
+
+.project-link:hover {
+    color: black;
+}
